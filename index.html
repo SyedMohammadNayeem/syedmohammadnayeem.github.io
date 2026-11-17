@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Syed Mohammad Nayeem's Data Analytics portfolio featuring Python, Excel and Power BI projects.">
+  <title>Syed Mohammad Nayeem | Data Analytics Portfolio</title>
+  <style>
+    :root {
+      --navy: #10233f;
+      --blue: #2563eb;
+      --light: #f4f7fb;
+      --ink: #172033;
+      --muted: #64748b;
+      --white: #ffffff;
+      --line: #e2e8f0;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink); background: var(--light); line-height: 1.6;
+    }
+    a { color: var(--blue); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap { width: min(1050px, 92%); margin: auto; }
+    header { background: var(--navy); color: var(--white); padding: 64px 0 58px; }
+    .tag { display: inline-block; padding: 6px 12px; border: 1px solid #7186a4;
+      border-radius: 30px; color: #dbeafe; font-size: 13px; margin-bottom: 18px; }
+    h1 { font-size: clamp(32px, 5vw, 48px); line-height: 1.15; margin: 0 0 14px; }
+    header p { max-width: 680px; color: #d7e2f0; font-size: 18px; margin: 0 0 24px; }
+    .links { display: flex; gap: 12px; flex-wrap: wrap; }
+    .btn { display: inline-block; padding: 10px 17px; border-radius: 8px;
+      background: var(--blue); color: white; font-weight: 700; }
+    .btn.secondary { background: transparent; border: 1px solid #9fb1ca; }
+    main { padding: 42px 0 64px; }
+    section { margin-bottom: 38px; }
+    h2 { color: var(--navy); font-size: 26px; margin: 0 0 16px; }
+    .intro, .project, .skillbox {
+      background: var(--white); border: 1px solid var(--line); border-radius: 14px;
+      padding: 22px; box-shadow: 0 5px 18px rgba(16,35,63,.04);
+    }
+    .projects { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    .project h3 { margin: 0 0 8px; color: var(--navy); font-size: 20px; }
+    .project p { color: var(--muted); margin: 0 0 14px; }
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 18px; }
+    .chip { background: #eaf1ff; color: #1e40af; border-radius: 20px; padding: 5px 10px; font-size: 12px; }
+    .project .file { font-size: 14px; font-weight: 700; }
+    .skills { display: flex; flex-wrap: wrap; gap: 10px; }
+    .skills span { background: #eaf1ff; color: #1e40af; padding: 8px 13px; border-radius: 8px; }
+    footer { background: var(--navy); color: #d7e2f0; padding: 22px 0; text-align: center; font-size: 14px; }
+    @media (max-width: 700px) { .projects { grid-template-columns: 1fr; } header { padding: 48px 0; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <span class="tag">Aspiring Data Analyst</span>
+      <h1>Hi, I'm Syed Mohammad Nayeem.</h1>
+      <p>I work with data to find useful patterns and present insights clearly. This portfolio contains my academic and practice projects using Python, Excel and Power BI.</p>
+      <div class="links">
+        <a class="btn" href="#projects">View Projects</a>
+        <a class="btn secondary" href="https://github.com/syedmohammadnayeem" target="_blank" rel="noopener">GitHub Profile</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h2>About Me</h2>
+      <div class="intro">
+        <p>I have completed a B.Com in Computer Applications and an MBA. I also completed Data Analytics training covering Excel, SQL, Power BI and Python, with practical learning through an internship. I am interested in using data analysis to understand problems and communicate findings.</p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <article class="project">
+          <h3>River Yamuna Water Quality Analysis</h3>
+          <p>Exploratory analysis of water-quality observations from monitoring stations along the Delhi stretch of the Yamuna. The project compares pH, Dissolved Oxygen (DO), BOD and COD, and examines patterns across locations.</p>
+          <div class="chips">
+            <span class="chip">Python</span><span class="chip">Pandas</span>
+            <span class="chip">Matplotlib</span><span class="chip">Seaborn</span>
+            <span class="chip">Excel</span><span class="chip">Power BI</span>
+          </div>
+          <a class="file" href="River_Yamuna_Water_Quality_Analysis_Human_Style.pptx">View project presentation →</a>
+        </article>
+
+        <article class="project">
+          <h3>Online Retail Data Analysis</h3>
+          <p>Project presentation covering an online retail data analysis. Open the presentation to review the work, methods and findings documented in the project.</p>
+          <div class="chips">
+            <span class="chip">Data Analytics</span><span class="chip">Project Presentation</span>
+          </div>
+          <a class="file" href="Online_Retail_Data_PPT.pptx">View project presentation →</a>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills & Tools</h2>
+      <div class="skillbox">
+        <div class="skills">
+          <span>Excel</span><span>SQL</span><span>Power BI</span>
+          <span>Python</span><span>Pandas</span><span>Matplotlib</span>
+          <span>Seaborn</span><span>Exploratory Data Analysis</span>
+          <span>Data Cleaning</span><span>Dashboard Reporting</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <div class="intro">
+        <p>You can explore my work through the project presentations and GitHub profile. I am open to entry-level Data Analyst opportunities and learning opportunities.</p>
+        <a href="https://github.com/syedmohammadnayeem" target="_blank" rel="noopener">github.com/syedmohammadnayeem</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© 2026 Syed Mohammad Nayeem · Data Analytics Portfolio</div>
+  </footer>
+</body>
+</html>
